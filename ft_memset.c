@@ -11,12 +11,3 @@ size_t i = 0;
 	
 	return (s);
 }
-/*int main()
-{
- 	unsigned char *buffer = (unsigned char *)malloc(sizeof * (unsigned char *) + 1);
-	
-	ft_memset(buffer, '\n', 10);
-	printf("%s\n", buffer);
-
-	return (0);
-}*/
