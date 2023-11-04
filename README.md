@@ -18,7 +18,6 @@ char *str;
 str = malloc(42 * sizeof(*str)); /* Wrong ! Malloc returns a void * (implicit cast) */
 str = (char *) malloc(42 * sizeof(*str)); /* Right ! (explicit cast) */
 
-
 Libft Your first own library
 V.2 Part 1 - Libc functions
 In this first part, you must re-code a set of the libc functions, as defined in their
