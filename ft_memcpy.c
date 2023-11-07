@@ -4,7 +4,7 @@
 	if dest and src are null, null is returned.
 */
 
-void *memcpy(void *dest, const void *src, size_t n)
+void *ft_memcpy(void *dest, const void *src, size_t n)
 {
 	if(dest == NULL && src == NULL)
 		return (NULL);
