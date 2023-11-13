@@ -12,12 +12,3 @@ char *ft_strncat(char *dest, const char *src, size_t n)
 
         return dest;
 }
-int main()
-{
-	char Dest[30] = "Hello ";
-	char *Src = "Brother How Are You";
-	
-	ft_strncat(Dest, Src, sizeof(Dest));
-	printf("%s\n", Dest);
-	return (0);
-}
