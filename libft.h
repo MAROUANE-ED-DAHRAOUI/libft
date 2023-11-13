@@ -14,8 +14,8 @@ typedef struct s_list
 
 }	t_list;
 
-size_t ft_strlcat(char *dest, const char *src, size_t sizedst);
 char *ft_strcat(char *dest, const char *src);
+char *ft_strncat(char *dest, const char *src, size_t n);
 char *ft_strncpy(char *dest, const char *src, size_t n);
 size_t ft_strlen(const char *s);
 char *ft_strdup(const char *s);
