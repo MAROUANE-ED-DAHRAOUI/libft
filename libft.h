@@ -14,6 +14,7 @@ typedef struct s_list
 
 }	t_list;
 
+char *ft_strstr(const char *haystack, const char *needle);
 char	*ft_strrchr(const char *s, int c);
 char *ft_strchr(const char *s, int c);
 size_t ft_strlcat(char *dest, const char *Src, size_t Size_dst);
